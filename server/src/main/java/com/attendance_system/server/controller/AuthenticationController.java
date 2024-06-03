@@ -22,12 +22,12 @@ public class AuthenticationController {
     @GetMapping("/welcome")
     public String welcome(){
         return "welcome to the page";
-    };
+    }
 
     @GetMapping("/home")
     public String Home(){
         return "This is a home page";
-    };
+    }
 
     @PostMapping("authenticate")
     public String authenticateAndGetToken(@RequestBody AuthRequest authRequest){
