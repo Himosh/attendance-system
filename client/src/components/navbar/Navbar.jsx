@@ -9,7 +9,7 @@ function Navbar() {
             <h1>Attendance System</h1>
         </div>
         <span className="navbar-right">
-            <button>Logout</button>
+            <button>Login</button>
             <img src={Profile} alt="User" />
         </span>
     </div>
