@@ -2,7 +2,6 @@ package com.attendance_system.server.config;
 
 import com.attendance_system.server.filter.JwtAuthFilter;
 import com.attendance_system.server.service.JwtService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
