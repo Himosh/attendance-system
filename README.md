@@ -67,7 +67,7 @@ npm install
 ```
 npm start
 ```
-4. Open your browser and navigate to `http://localhost:3000` to access the application.
+3. Open your browser and navigate to `http://localhost:3000` to access the application.
 
 ## Login Credentials
 For testing purposes, you can use the following login credentials:
