@@ -46,3 +46,37 @@
     width: 450px;
     height: 100%;
 }
+@media (max-width: 768px) {
+    .hero-container {
+        flex-direction: column;
+        align-items: center;
+        /* padding: 0px 10px; */
+    }
+
+    .container-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-left h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .container-left p {
+        font-size: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .container-left button {
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .container-right {
+        visibility: hidden;
+    }
+}
