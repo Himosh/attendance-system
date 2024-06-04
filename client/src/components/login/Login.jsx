@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import authService from '../../services/authService';
 import './Login.css';
@@ -10,22 +10,15 @@ function Login() {
 
   const navigate = useNavigate();
 
-  useEffect(() => {
-    if (authService.isAuthenticated()) {
-      navigate('/');
-    }
-  }, [navigate]);
-
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
       await authService.login(username, password);
-      navigate('/');
+      navigate('/welcome');
     } catch (err) {
       setError('Invalid username or password');
     }
   };
-
 
   return (
     <div className="login-container">

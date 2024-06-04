@@ -1,0 +1,48 @@
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+}
+.container-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    width: 50%;
+    height: 100%;
+}
+.container-left h1{
+    font-size: 60px;
+    font-family: poppins;
+    font-weight: 600;
+    color: #f48023;
+    margin-bottom: 0px;
+}
+.container-left p{
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 400;
+    color: #6E655D;
+    margin-bottom: 40px;
+}
+.container-left button{
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 150px;
+    height: 50px;
+    background: #f48023;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.container-left button:hover{
+    background: #fff;
+    color: #f48023;
+    border: 1px solid #f48023;
+}
+.container-right img{
+    width: 450px;
+    height: 100%;
+}
