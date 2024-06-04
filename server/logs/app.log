@@ -23,3 +23,7 @@
 2024-06-04T09:57:23.153+05:30  WARN 21088 --- [server] [http-nio-8080-exec-2] c.a.server.filter.JwtAuthFilter          : Token validation failed for user: Himosh
 2024-06-04T10:30:05.660+05:30  INFO 21088 --- [server] [http-nio-8080-exec-6] c.a.server.filter.JwtAuthFilter          : Token received: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJIaW1vc2giLCJpYXQiOjE3MTc0MTI2MTksImV4cCI6MTcxNzQxNjIxOX0.MBEZvMFP5t615v-JcjmE-wCdEs4CERVudm_cGxbYAQU, Username extracted: Himosh
 2024-06-04T10:30:05.666+05:30  WARN 21088 --- [server] [http-nio-8080-exec-6] c.a.server.filter.JwtAuthFilter          : Token validation failed for user: Himosh
+2024-06-04T11:16:47.186+05:30  INFO 21088 --- [server] [http-nio-8080-exec-5] c.a.server.filter.JwtAuthFilter          : Token received: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJIaW1vc2giLCJpYXQiOjE3MTc0NzcyMDUsImV4cCI6MTcxNzQ4MDgwNX0.co50oOtieMwMpD9f7Orbz5JHl2YWUfASzCH59294Svk, Username extracted: Himosh
+2024-06-04T11:16:47.212+05:30  INFO 21088 --- [server] [http-nio-8080-exec-5] c.a.server.filter.JwtAuthFilter          : Token validated successfully for user: Himosh
+2024-06-04T11:17:59.196+05:30  INFO 21088 --- [server] [http-nio-8080-exec-10] c.a.server.filter.JwtAuthFilter          : Token received: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJIaW1vc2giLCJpYXQiOjE3MTc0NzcyMDUsImV4cCI6MTcxNzQ4MDgwNX0.co50oOtieMwMpD9f7Orbz5JHl2YWUfASzCH59294Svk, Username extracted: Himosh
+2024-06-04T11:17:59.206+05:30  INFO 21088 --- [server] [http-nio-8080-exec-10] c.a.server.filter.JwtAuthFilter          : Token validated successfully for user: Himosh
