@@ -5,6 +5,7 @@ Welcome to the School Attendance System project! This project is designed to man
 
 ## Table of Contents 
 - [Features](#features)
+- [UI Design](#ui-design)
 - [Technologies Used](#technologies-used)
  - [Setup Instructions](#setup-instructions)
    - [Backend Setup](#backend-setup)
@@ -19,6 +20,9 @@ Welcome to the School Attendance System project! This project is designed to man
 - Home page displaying a welcome message and logout button
 - Client-server interaction via REST API
 - Proper redirection based on user authentication status
+
+## UI Design
+- Figma link - https://www.figma.com/design/T2Syo5Q9mvoE8S0cvc1HZy/Untitled?node-id=20-3&t=9i4s95lj3Jx3qTUa-1
 
 ## Technologies Used
 ### Backend
