@@ -65,9 +65,9 @@ npm install
 1. Start the backend server as per the instructions provided in the Backend Setup section.
 2. Start the frontend development server:
 ```
-npm install
+npm start
 ```
-4. Open your browser and navigate to `http://localhost:3000` to access the application.
+3. Open your browser and navigate to `http://localhost:3000` to access the application.
 
 ## Login Credentials
 For testing purposes, you can use the following login credentials:
