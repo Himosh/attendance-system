@@ -1,12 +1,14 @@
+#!groovy
 pipeline {
     agent any
     
     stages {
-        stage('Test Command') {
+        stage('Docker compose') {
             steps {
-                bat 'echo Hello World'
+                script {
+                    sh 'docker compose up'
+                }
             }
         }
-        // Add more stages as per your deployment or build steps
     }
 }
