@@ -25,6 +25,11 @@ public class AuthenticationController {
         return "welcome to the page";
     }
 
+    @GetMapping("/welcome-new")
+    public String welcomeNew(){
+        return "welcome to the new welcome page";
+    }
+
     @GetMapping("/home")
     public String Home(){
         return "This is a home page";
