@@ -22,7 +22,7 @@ public class AuthenticationController {
 
     @GetMapping("/welcome")
     public String welcome(){
-        return "welcome to the page for docker new himosh";
+        return "welcome to the page";
     }
 
     @GetMapping("/welcome-new")
