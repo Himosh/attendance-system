@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <div className="navbar-container">
       <div className="navbar-logo">
-        <h1>Event Management</h1>
+        <h1>Event Management System</h1>
       </div>
       <span className="navbar-right">
           <button>Explore</button>
