@@ -27,6 +27,8 @@ pipeline {
         stage('Deploy') {
             steps {
                 script {
+                    // Stop and remove previous containers
+                    bat 'docker-compose down --remove-orphans'
                     // Deploy using docker-compose
                     bat 'docker-compose up --build -d'
                 }
