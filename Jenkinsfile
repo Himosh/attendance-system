@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    environment {
+        DOCKER_CLI_HOME = "${env.WORKSPACE}"
+    }
+
     stages {
         stage('Build Client') {
             steps {
@@ -12,6 +16,7 @@ pipeline {
                 }
             }
         }
+        
         stage('Build Server') {
             steps {
                 dir('server') {
@@ -24,6 +29,7 @@ pipeline {
                 }
             }
         }
+        
         stage('Deploy') {
             steps {
                 script {
