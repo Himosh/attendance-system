@@ -1,10 +1,11 @@
 version: '3'
 services:
-  server:
-    image: himosh/attendance-system-server:latest
-    ports:
-      - "8080:8080"
   client:
-    image: himosh/attendance-system-client:latest
+    image: client-image:latest
     ports:
       - "3000:3000"
+  server:
+    image: server-image:latest
+    ports:
+      - "8080:8080"
+
